@@ -14,9 +14,9 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   return (
-    <Container h={'85vh'}>
+    <Container h={'90vh'} >
       <VStack h={'full'} justifyContent={'center'} spacing={'16'}>
-        <Heading children={'Welcome to TooD!V'} />
+        <Heading children={"Welcome to Study Sphere"} />
 
         <form style={{ width: '100%' }}>
           <Box my={'4'}>

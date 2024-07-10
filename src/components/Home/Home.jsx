@@ -31,7 +31,7 @@ const Home = () => {
         >
           <VStack width={'full'} alignItems={['center', 'flex-end']} spacing={'5'}>
             <Heading
-              children="Learn by Ranjan Kumar"
+              children="Ranjan's Study Sphere"
               size={'2xl'}
             />
             <Text fontSize={'2xl'} textAlign={["center", 'left']} children="Find premium courses at low cost " />

@@ -50,7 +50,7 @@ const Header = () => {
 
         <DrawerContent>
           <DrawerHeader textAlign={'center'} borderBottomWidth={'1px'}>
-            TooD!V
+          Ranjan's Study Sphere
           </DrawerHeader>
           <DrawerBody>
             <VStack spacing={'4'} alignItems={'flex-start'}>
@@ -73,10 +73,10 @@ const Header = () => {
               <Link onClick={onClose} to="/about">
                 <Button variant={'ghost'}>About</Button>
               </Link>
-
+{/* 
               <Link onClick={onClose} to="/policy">
                 <Button variant={'ghost'}>Privacy Policy</Button>
-              </Link>
+              </Link> */}
 
               <HStack
                 justifyContent={'space-evenly'}

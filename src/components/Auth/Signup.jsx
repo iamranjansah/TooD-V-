@@ -43,8 +43,8 @@ const Signup = () => {
     };
   };
   return (
-    <Container my={'20'} h={'85vh'}>
-      <VStack h={'full'} justifyContent={'center'} spacing={'16'}>
+    <Container my={'20'} >
+      <VStack h={'full'} justifyContent={'center'} spacing={'10'}>
         <Heading textTransform={'uppercase'} children={'Registration'} />
 
         <form style={{ width: '100%' }}>
