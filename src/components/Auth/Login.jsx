@@ -14,7 +14,7 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   return (
-    <Container h={'95vh'}>
+    <Container h={'85vh'}>
       <VStack h={'full'} justifyContent={'center'} spacing={'16'}>
         <Heading children={'Welcome to TooD!V'} />
 

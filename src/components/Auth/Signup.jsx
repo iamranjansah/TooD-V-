@@ -7,8 +7,7 @@ import {
   Box,
   Button,
   Avatar,
-  border,
-  background,
+
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -32,6 +31,7 @@ const Signup = () => {
   const [password, setPassword] = useState('');
   const [imagePrev, setImagePrev] = useState('');
   const [image, setImage] = useState('');
+  const [name, setName] = useState('');
 
   const changeImageHandler = e => {
     const file = e.target.files[0];
@@ -43,7 +43,7 @@ const Signup = () => {
     };
   };
   return (
-    <Container h={'95vh'} my={'8'}>
+    <Container my={'20'} h={'85vh'}>
       <VStack h={'full'} justifyContent={'center'} spacing={'16'}>
         <Heading textTransform={'uppercase'} children={'Registration'} />
 
@@ -57,8 +57,8 @@ const Signup = () => {
             <Input
               required
               id="name"
-              // value={}
-              onChange={e => setEmail(e.target.value)}
+              value={name}
+              onChange={e => setName(e.target.value)}
               type="text"
               focusBorderColor="yellow.500"
               placeholder="Ranjan Kumar"
