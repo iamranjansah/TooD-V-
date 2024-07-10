@@ -63,7 +63,7 @@ const Course = ({
       />
 
       <Stack direction={['column', 'row']} alignItems={'center'}>
-        <Link to={`/couses/${id}`}>
+        <Link to={`/course/${id}`}>
         
         <Button colorScheme='yellow' >Watch Now</Button>
         </Link>
@@ -121,7 +121,7 @@ const Courses = () => {
           description={'Description'}
           views={2}
           imageSrc={'https://www.iamranjansah.me/static/media/coming%20soon.9a89d4777370090a6212.png'}
-          id={2}
+          id={"sample"}
           creator={'creator'}
           lectureCount={2}
           addToPlaylistHandler={addToPlaylistHandler}
