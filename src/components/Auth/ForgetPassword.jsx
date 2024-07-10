@@ -21,7 +21,7 @@ const ForgetPassword = () => {
             onChange={e => setEmail(e.target.value)}
             type="email"
             focusBorderColor="yellow.500"
-            placeholder="toodiv@gmail.com"
+            placeholder="iamranjansahh@gmail.com"
           />
 
           <Button type="submit" colorScheme="yellow" w={'full'}>
