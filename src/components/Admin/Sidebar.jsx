@@ -10,7 +10,7 @@ import {
 
 const LinkButton = ({ url, Icon, text, active }) => {
   return (
-    <Link to={`/admin/${url}`}>
+    <Link to={`/admin/${url}`} >
       <Button
         fontSize={'larger'}
         variant={'ghost'}
@@ -29,7 +29,8 @@ const Sidebar = () => {
     <VStack
       spacing={'8'}
       p={'16'}
-      boxShadow={'-2px 0 10px rgba(107, 70, 93, 0.5)'}
+      boxShadow={'-2px 0 10px rgba(107, 70, 93, 0.5)'} 
+    alignItems={'left'}
     >
       <LinkButton
         Icon={RiDashboardFill}
