@@ -12,6 +12,7 @@ import cursor from '../../../assets/images/cursor.png';
 import Sidebar from '../Sidebar';
 import { RiArrowDownLine, RiArrowUpLine } from 'react-icons/ri';
 import { LineChart } from './Chart';
+import {DaughnutChart} from './Chart'
 
 const DataBox = ({ title, qty, qtyPercentage, profit }) => {
   return (
@@ -126,6 +127,7 @@ const Dashboard = () => {
             <Heading textAlign={'center'} size={'md'} mb={'4'} children='Users' />
 
             {/* Daughnut Graph */}
+            < DaughnutChart/>
 
           </Box>
         </Grid>
